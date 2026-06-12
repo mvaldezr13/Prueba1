@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ERP + ITIL — Integración por Fases</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════
+       TOP NAVIGATION BAR
+  ══════════════════════════════════ -->
+  <nav class="topbar" role="navigation" aria-label="Navegación principal">
+    <a href="index.html" class="topbar-brand" aria-label="Inicio">
+      <div class="topbar-logo">EI</div>
+      <span class="topbar-name">ERP + ITIL Framework</span>
+    </a>
+    <span class="topbar-badge">Vista Ejecutiva</span>
+  </nav>
+
+  <!-- ══════════════════════════════════
+       HERO HEADER
+  ══════════════════════════════════ -->
+  <header class="hero" role="banner">
+    <div class="hero-inner">
+      <div class="hero-eyebrow">
+        <span class="hero-eyebrow-dot"></span>
+        Marco de Integración Estratégica
+      </div>
+      <h1 class="hero-title">
+        ERP + ITIL:<br>
+        <span>Integración por Fases</span>
+      </h1>
+      <p class="hero-subtitle">
+        Modelo de convergencia entre la implementación del ERP empresarial
+        y el ciclo de vida de servicios ITIL, estructurado en cuatro fases
+        de ejecución progresiva con mejora continua transversal.
+      </p>
+      <div class="hero-meta">
+        <div class="hero-stat">
+          <span class="hero-stat-value">4</span>
+          <span class="hero-stat-label">Fases de implementación</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-value">2</span>
+          <span class="hero-stat-label">Marcos integrados</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-value">∞</span>
+          <span class="hero-stat-label">Mejora continua (CSI)</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════
+       MAIN CONTENT
+  ══════════════════════════════════ -->
+  <main class="main-content" role="main">
+
+    <!-- LEYENDA -->
+    <div class="section-label">
+      <span class="section-label-text">Leyenda del diagrama</span>
+      <div class="section-label-line"></div>
+    </div>
+
+    <div class="legend-bar" role="list" aria-label="Leyenda de colores">
+      <div class="legend-item" role="listitem">
+        <div class="legend-dot" style="background:#F1EFE8; border:2px solid #5F5E5A;"></div>
+        <span>Actividades ERP</span>
+      </div>
+      <div class="legend-item" role="listitem">
+        <div class="legend-dot" style="background:#E1F5EE; border:2px solid #0F6E56;"></div>
+        <span>Actividades ITIL</span>
+      </div>
+      <div class="legend-item" role="listitem">
+        <div class="legend-dot" style="background:#EEEDFE; border:2px solid #534AB7;"></div>
+        <span>Fase 1 — Planificación</span>
+      </div>
+      <div class="legend-item" role="listitem">
+        <div class="legend-dot" style="background:#E6F1FB; border:2px solid #185FA5;"></div>
+        <span>Fase 2 — Diseño</span>
+      </div>
+      <div class="legend-item" role="listitem">
+        <div class="legend-dot" style="background:#FAEEDA; border:2px solid #854F0B;"></div>
+        <span>Fase 3 — Desarrollo</span>
+      </div>
+      <div class="legend-item" role="listitem">
+        <div class="legend-dot" style="background:#FAECE7; border:2px solid #993C1D;"></div>
+        <span>Fase 4 — Go-Live</span>
+      </div>
+      <div class="legend-item" role="listitem">
+        <div class="legend-dot" style="background:#EAF3DE; border:2px solid #3B6D11;"></div>
+        <span>CSI — Mejora continua</span>
+      </div>
+    </div>
+
+    <!-- FASES LABEL -->
+    <div class="section-label">
+      <span class="section-label-text">Fases de implementación</span>
+      <div class="section-label-line"></div>
+    </div>
+
+    <!-- ── FASES GRID ── -->
+    <div class="phases-grid" role="list" aria-label="Fases del proyecto">
+
+      <!-- ═══════════════════════════════
+           FASE 1 — PLANIFICACIÓN Y ESTRATEGIA
+           (tarjeta interactiva → navega a fase1.html)
+      ═══════════════════════════════ -->
+      <a href="fase1.html"
+         class="phase-card clickable phase-purple"
+         role="listitem"
+         aria-label="Fase 1: Planificación y estrategia — Clic para ver detalle">
+        <div class="phase-card-header">
+          <div class="phase-number-badge" aria-hidden="true">1</div>
+          <div class="phase-card-title">Fase 1 — Planificación y estrategia</div>
+        </div>
+        <div class="phase-card-body">
+          <!-- Columna ERP -->
+          <div class="phase-lane">
+            <div class="phase-lane-label">ERP</div>
+            <div class="phase-lane-title">Alcance y selección de módulos</div>
+            <div class="phase-lane-desc">Alcance, selección de módulos, definición de sponsor y equipo de proyecto.</div>
+          </div>
+          <!-- Columna ITIL -->
+          <div class="phase-lane">
+            <div class="phase-lane-label">ITIL — Estrategia del servicio</div>
+            <div class="phase-lane-title">Portafolio, ROI y BIA</div>
+            <div class="phase-lane-desc">Gestión de portafolio, ROI de TI, Business Impact Analysis (BIA).</div>
+          </div>
+        </div>
+      </a><!-- /Fase 1 -->
+
+      <!-- ═══════════════════════════════
+           FASE 2 — DISEÑO Y CONFIGURACIÓN
+      ═══════════════════════════════ -->
+      <div class="phase-card phase-blue" role="listitem">
+        <div class="phase-card-header">
+          <div class="phase-number-badge" aria-hidden="true">2</div>
+          <div class="phase-card-title">Fase 2 — Diseño y configuración</div>
+        </div>
+        <div class="phase-card-body">
+          <!-- Columna ERP -->
+          <div class="phase-lane">
+            <div class="phase-lane-label">ERP</div>
+            <div class="phase-lane-title">Blueprint y mapeo de procesos</div>
+            <div class="phase-lane-desc">Blueprint, mapeo de procesos AS-IS / TO-BE, integraciones con otros sistemas.</div>
+          </div>
+          <!-- Columna ITIL -->
+          <div class="phase-lane">
+            <div class="phase-lane-label">ITIL — Diseño del servicio</div>
+            <div class="phase-lane-title">SLAs, Catálogo y Capacidad</div>
+            <div class="phase-lane-desc">SLAs, catálogo de servicios, gestión de capacidad y disponibilidad.</div>
+          </div>
+        </div>
+      </div><!-- /Fase 2 -->
+
+      <!-- ═══════════════════════════════
+           FASE 3 — DESARROLLO Y PRUEBAS
+      ═══════════════════════════════ -->
+      <div class="phase-card phase-amber" role="listitem">
+        <div class="phase-card-header">
+          <div class="phase-number-badge" aria-hidden="true">3</div>
+          <div class="phase-card-title">Fase 3 — Desarrollo y pruebas</div>
+        </div>
+        <div class="phase-card-body">
+          <!-- Columna ERP -->
+          <div class="phase-lane">
+            <div class="phase-lane-label">ERP</div>
+            <div class="phase-lane-title">Configuración, UAT y Datos</div>
+            <div class="phase-lane-desc">Configuración, customizaciones, User Acceptance Testing (UAT), migración de datos.</div>
+          </div>
+          <!-- Columna ITIL -->
+          <div class="phase-lane">
+            <div class="phase-lane-label">ITIL — Transición del servicio</div>
+            <div class="phase-lane-title">Change, Release y CMDB</div>
+            <div class="phase-lane-desc">Gestión del cambio, release, CMDB, gestión de configuración.</div>
+          </div>
+        </div>
+      </div><!-- /Fase 3 -->
+
+      <!-- ═══════════════════════════════
+           FASE 4 — GO-LIVE Y OPERACIÓN
+      ═══════════════════════════════ -->
+      <div class="phase-card phase-coral" role="listitem">
+        <div class="phase-card-header">
+          <div class="phase-number-badge" aria-hidden="true">4</div>
+          <div class="phase-card-title">Fase 4 — Go-Live y operación</div>
+        </div>
+        <div class="phase-card-body">
+          <!-- Columna ERP -->
+          <div class="phase-lane">
+            <div class="phase-lane-label">ERP</div>
+            <div class="phase-lane-title">Hypercare y Cutover</div>
+            <div class="phase-lane-desc">Hypercare, soporte clave, go-live, cutover y estabilización post-producción.</div>
+          </div>
+          <!-- Columna ITIL -->
+          <div class="phase-lane">
+            <div class="phase-lane-label">ITIL — Operación del servicio</div>
+            <div class="phase-lane-title">Mesa de Ayuda e Incidentes</div>
+            <div class="phase-lane-desc">Mesa de ayuda, gestión de incidentes, problemas y eventos.</div>
+          </div>
+        </div>
+      </div><!-- /Fase 4 -->
+
+    </div><!-- /phases-grid -->
+
+    <!-- ── CSI BANNER ── -->
+    <div class="csi-banner" role="complementary" aria-label="Mejora continua del servicio">
+      <div class="csi-icon" aria-hidden="true">♻️</div>
+      <div class="csi-text">
+        <strong>Mejora Continua del Servicio (CSI) — Transversal a todas las fases</strong>
+        <span>KPIs ERP · Revisión de SLAs · Optimización de procesos · Auditorías ITIL · Integración bidireccional ERP ↔ ITIL</span>
+      </div>
+    </div>
+
+    <!-- NOTA INTERACCIÓN -->
+    <p style="margin-top:2rem; font-size:.8rem; color:var(--neutral); text-align:center; font-style:italic;">
+      💡 Haz clic en <strong>Fase 1</strong> para explorar el detalle de actividades, entregables y alineación ITIL.
+    </p>
+
+  </main><!-- /main-content -->
+
+  <!-- ══════════════════════════════════
+       FOOTER
+  ══════════════════════════════════ -->
+  <footer class="page-footer" role="contentinfo">
+    ERP + ITIL Integration Framework &nbsp;·&nbsp; Documento Ejecutivo Confidencial &nbsp;·&nbsp; Uso Interno
+  </footer>
+
+</body>
+</html>
